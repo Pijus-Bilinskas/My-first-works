@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+   background-color: rgb(238, 238, 240);
+   margin: 0px;
+  }
+  
+  header{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 0px 4px 3px rgb(139, 139, 139);
+  }
+  
+  .todo{
+    margin: 5px 30px;
+  }
+  
+  header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+  }
+  
+  header span{
+    color: rgb(109, 109, 236);
+  }
+  
+  .imglinks{
+    margin: 30px 40px;
+  }
+  
+  header img{
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .lists{
+    margin-top: 100px;
+    margin-left: 25%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .firstbox{
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 70px;
+    box-shadow: 0px 2px 3px 2px rgb(158, 158, 158);
+  }
+  
+  .add input{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 270px 7px 15px;
+    border-radius: 0px;
+    margin: -6px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(243, 243, 243);
+  }
+  
+  .add button{
+    font-size: 20px;
+    padding: 7px 55px;
+    margin: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(109, 109, 236);
+    color: white;
+    border-color: rgb(109, 109, 236);
+  }
+  
+  .firstbox p{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(197, 50, 50);
+  }
+  
+  .secondbox{
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 3px 2px rgb(194, 194, 194);
+  }
+  
+  .secondbox h3{
+    margin-left: 60px;
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  
+  .secondbox form{
+    margin: 25px 40px;
+  }
+  
+  .icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    opacity: 0.7;
+  }
+  
+  .thirdbox{
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 3px 2px rgb(194, 194, 194);
+  }
+  
+  .thirdbox h3{
+    font-size: 22px;
+    margin-top: 27px;
+  }
+  
+  .thirdbox form{
+    margin: 25px 40px;
+  }
+  
+  .checkk{
+    display: inline-flex;
+  }
+  
+  .check {
+    height: 27px;
+    width: 27px;
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 22px;
+  }

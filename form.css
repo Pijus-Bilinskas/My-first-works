@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://live.staticflickr.com/65535/51833288375_a41ac41d4e_b.jpg);
+  }
+  
+  .form{
+    display: grid;
+    padding: 10px 15px;
+  }
+  
+  section {
+    max-width: 800px;
+    background-color: rgb(235, 235, 235);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 8%;
+  }
+  
+  .whiteborder{
+     max-width: 700px;
+     margin: 0px;
+  }
+  
+  .whiteborder label{
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .whiteborder input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    background-color: rgb(235, 235, 235);
+    padding: 6px 0px;
+    font-weight: 520;
+    font-size: 16px;
+    font-family:  serif;
+  }
+  
+  .whiteborder textarea{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid black;
+    font-size: 16px;
+  }
+  
+  section h1{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(63, 63, 63);
+  }
+  
+  .whiteborder input[type="submit"]{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    padding: 5px 55px;
+    margin-top: 10px;
+    border-bottom: none;
+    padding-bottom: 7px;
+    font-size: 16px;
+  }

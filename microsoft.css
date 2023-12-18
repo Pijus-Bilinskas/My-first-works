@@ -1,0 +1,74 @@
+body  {
+    background-color: white;
+    margin: 0px;
+  }
+  
+  .content-bord{
+    max-width: 760px;
+  }
+  
+  header img{
+    width: 200px;
+    padding-bottom: 5px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header nav {
+    background-color: rgb(0, 151, 0);
+    padding: 10px;
+  }
+  
+  header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+  }
+  
+  
+  .sand {
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+  }
+  
+  
+  .sand img{
+    width: 720px;
+    
+    
+  }
+  
+  .sand h2{
+    text-align: left;
+    background-color: rgb(0, 151, 0);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .sand p{
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .contak {
+    background-color: rgb(143, 255, 143);
+    padding: 20px;
+  }
+  
+  
+  .contak h2 {
+    text-align: left;
+    background-color: rgb(0, 151, 0);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .contak p {
+    text-align: justify;
+    
+  }

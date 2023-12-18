@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(87, 148, 128);
+  }
+  
+  
+  section{
+    max-width: 600px;
+    margin-left: 25%;
+    display: grid;
+  }
+  
+  
+  .borders{
+   max-width: 500px;
+   text-align: center;
+   color: white;
+  }
+  
+  .borders span{
+    background-color: palevioletred;
+  }
+  
+  .form {
+    display: grid;
+  }
+  
+  .form2 {
+    display: inline;
+  }
+  
+  .form label{
+    font-size: 20px;
+  }
+  
+  .form input{
+    border: 3px inset red ;
+    border-left: 3px inset rgb(255, 122, 199);
+    margin-bottom: 10px;
+  }
+  
+  
+  input:required{
+    border-left: 3px solid rgb(255, 147, 165);
+  }
+  
+  input:valid,
+  textarea
+  {
+   border-color: green;
+  }
+  
+  input:invalid,
+  textarea
+  {
+    border-color: red;
+  }
+  
+  .form input[type="text"]{
+    border: 3px inset gray;
+    background-color: rgb(175, 175, 175);
+    width: 140px;
+    margin-left: 160px;
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  input[type="email"]{
+    width: 140px;
+    margin-left: 160px;
+  }
+  input[type="password"]{
+    width: 140px;
+    margin-left: 160px;
+  }
+  
+  input[type="number"]{
+    margin-left: 203px;
+    width: 45px;
+  }
+  
+  textarea{
+    border: 3px inset red ;
+    border-left: 3px inset rgb(255, 122, 199);
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 12px;
+  }
+  
+  input[type="submit"]{
+    background-color: green;
+    border: 3px outset gray;
+    color: white;
+  }
+  
+  input[type="submit"]:hover{
+    background-color: rgb(0, 85, 0);
+  }

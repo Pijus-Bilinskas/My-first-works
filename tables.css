@@ -1,0 +1,118 @@
+body {
+    color: #fffff0;
+    margin: 0px;
+  }
+  
+  .content-bord {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #010214;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  header img {
+    width: 200px;
+  }
+  
+  header h1 {
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  header nav {
+    text-align: right;
+    background-color: #d6b731;
+    padding: 20px;
+  }
+  
+  header nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+  .about-it {
+    color: black;
+    text-align: center;
+  }
+
+  .about-it h2{
+    padding-right: 900px;
+    padding-left: 0px;
+  }
+  .about-it p{
+    text-align: justify;
+    padding-bottom: 10px;
+  }
+
+  .about-it a{
+    text-decoration: underline;
+    color: white;
+    background-color: red;
+    padding: 10px 45px;
+    border-radius: 5px;
+  }
+
+.backro {
+   background-color: rgb(0, 0, 75);
+}
+
+
+.table {
+  color: rgb(255, 255, 255);
+  text-align: center;
+ background-color: rgb(0, 0, 75);
+ padding-bottom: 15px;
+}
+.table h2 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, th{
+    border: 2px solid rgb(255, 0, 0);
+    padding: 8px;
+
+}
+
+.table tr td:last-child{
+    text-align: right;
+}
+
+.kontakt {
+    color: black;
+    text-align: left;
+}
+
+.kontakt a {
+    text-align: center;
+    padding-left: 450px;
+}
+
+footer{
+    background-color: #d6b731;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
